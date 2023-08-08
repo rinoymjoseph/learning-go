@@ -1,0 +1,15 @@
+syntax= "proto3";
+option go_package= "rinoymjoseph.github.com/grpc-demo/calc";
+
+service calc {
+    rpc Add(AddRequest) returns (AddResponse);
+}
+
+message AddRequest {
+    int32 num1 = 1;
+    int32 num2 = 2;
+}
+
+message AddResponse {
+    int64 sum = 1;
+}
