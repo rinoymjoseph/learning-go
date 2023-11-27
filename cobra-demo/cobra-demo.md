@@ -25,3 +25,8 @@ cobra-cli add timezone
 ### The timeZoneCmd variable is an instance of the cobra command. The Use field of the Command struct specifies the command name, and the Short and Long fields specify short and long descriptions for the command
 
 cobra-demo timezone Asia/Calcutta
+
+CobraDigitalOcean timezone EST --date 2006-01-02
+
+
+oc adm release info --image-for=machine-os-images --insecure=%t %s
